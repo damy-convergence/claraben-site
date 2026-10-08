@@ -133,3 +133,28 @@ figcaption{font-size:.86rem;color:var(--muted);margin-top:12px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.hero-card{transition:none}}
 @media (max-width:560px){.frame-deck{aspect-ratio:auto;height:calc((100vw - 42px) * .96 * 9 / 16 + 92px)}}
+.who-teaser{padding:56px 0 0}
+.who-teaser-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;border:1px solid var(--line);border-radius:20px;padding:32px 40px;background:#fff;box-shadow:0 1px 2px rgba(31,41,51,.05)}
+.who-teaser h2{font-size:clamp(1.4rem,2.4vw,1.8rem);margin-bottom:.3em}
+.who-teaser p{color:var(--muted);margin:0}
+@media (max-width:860px){.who-teaser-inner{flex-direction:column;align-items:flex-start;padding:28px}}
+.nav-links a[aria-current="page"]{color:var(--teal)}
+.page-hero{padding:64px 0 36px}
+.page-hero h1{font-size:clamp(2.1rem,4vw,3.1rem);max-width:18em}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{display:inline-block;padding:.45em 1.05em;border-radius:999px;border:1px solid #CFE5E5;background:var(--teal-50);color:var(--teal);font-weight:600;text-decoration:none;font-size:.95rem}
+.chip:hover{background:#dcefef}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-bottom:80px}
+.who-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px 34px;box-shadow:0 1px 2px rgba(31,41,51,.05);scroll-margin-top:96px}
+.who-head{display:flex;gap:18px;align-items:flex-start;margin-bottom:18px}
+.who-icon{flex:none;width:56px;height:56px;border-radius:14px;background:var(--teal-50);color:var(--teal);display:grid;place-items:center}
+.who-icon svg{width:30px;height:30px}
+.who-head .eyebrow{margin-bottom:.35em}
+.who-head h2{font-size:1.45rem;margin:0}
+.who-list{list-style:none;margin:0;padding:0}
+.who-list li{position:relative;padding-left:30px;margin-bottom:12px;color:#3E4C59;font-size:.99rem}
+.who-list li strong{color:var(--ink)}
+.who-list li::before{content:"";position:absolute;left:0;top:.38em;width:18px;height:18px;border-radius:50%;background:var(--teal-50) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4.5 8.2 2.3 2.3 4.7-5' fill='none' stroke='%230E6B6B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/18px no-repeat}
+@media (max-width:900px){.who-grid{grid-template-columns:1fr}}
+@media (max-width:560px){.who-card{padding:26px 22px}.page-hero{padding:40px 0 24px}}
+@media (max-width:1100px) and (min-width:861px){.nav-links{gap:22px}}
